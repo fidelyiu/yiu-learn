@@ -3,3 +3,8 @@ export enum SayType {
     WARN = 'warn',
     ERROR = 'error'
 }
+
+export enum HelloType {
+    HELLO = 'Hello',
+    HEI = 'Hei',
+}
