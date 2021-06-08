@@ -4,8 +4,7 @@
   "description": "发布学习库",
   "scripts": {
     "build:tsc": "tsc",
-    "push:version": "npm run update:version && npm publish",
-    "update:version": "npm version patch"
+    "push:version": "npm version patch && npm publish"
   },
   "files": [
     "dist/**/*"
