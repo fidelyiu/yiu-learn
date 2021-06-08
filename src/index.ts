@@ -1,25 +1,18 @@
-import { SayType } from './type'
-import { isBoolean } from 'lodash-es'
+// import * as a from 'lib/a'
+// import * as b from 'lib/b'
 
-export enum HelloType {
-    HELLO = 'Hello',
-    HEI = 'Hei',
-}
-
-export function sayAny(str: string) {
-    console.log(str)
-}
+import { sayAny, sayHello } from './lib/a'
+import { isBoolean, merge } from 'lodash-es'
 
 export function yiuIsBoolean(b: any): boolean {
     return isBoolean(b)
 }
 
-export function sayHello(sayType: SayType) {
-    if (sayType === SayType.LOG) {
-        console.log('hello')
-    } else if (sayType === SayType.WARN) {
-        console.warn('hello')
-    } else if (sayType === SayType.ERROR) {
-        console.error('hello')
-    }
+export function yiuMerge(a: any, b: any): any {
+    return merge(a, b)
+}
+
+export {
+    sayAny,
+    sayHello,
 }
