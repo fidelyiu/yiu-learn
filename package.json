@@ -12,7 +12,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    "./type": "./dist/type.d.ts"
+    "./type": "./dist/type"
   },
   "license": "MIT",
   "dependencies": {
