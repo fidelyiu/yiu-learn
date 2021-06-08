@@ -1,6 +1,6 @@
 {
   "name": "yiu-learn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "发布学习库",
   "scripts": {
     "build:tsc": "tsc",
