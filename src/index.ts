@@ -1,7 +1,12 @@
 import { SayType } from './type'
+import { isBoolean } from 'lodash-es'
 
 export function sayAny(str: string) {
     console.log(str)
+}
+
+export function yiuIsBoolean(b: any): boolean {
+    return isBoolean(b)
 }
 
 export function sayHello(sayType: SayType) {
