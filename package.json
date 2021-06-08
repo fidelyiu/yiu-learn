@@ -11,6 +11,9 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "./type": "./dist/type.d.ts"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash-es": "^4.17.21"

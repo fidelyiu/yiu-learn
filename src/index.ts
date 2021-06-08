@@ -1,6 +1,11 @@
 import { SayType } from './type'
 import { isBoolean } from 'lodash-es'
 
+export enum HelloType {
+    HELLO = 'Hello',
+    HEI = 'Hei',
+}
+
 export function sayAny(str: string) {
     console.log(str)
 }
